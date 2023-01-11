@@ -1,0 +1,6 @@
+- linear layoout: sắp xếp tuần tự
+- constrain layout: sắp xếp view theo sự ràng buộc 	
+	+ xác định tọa độ: định vị cho phần tử
+	+ kích thước của phần tử: layout width, layout height
+	+ wrap content: đủ nội dung
+	+ match parents: bằng kích thước phần tử cha
