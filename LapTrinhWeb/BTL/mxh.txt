@@ -1,0 +1,60 @@
+*Phân tích các chức năng của đề tài 
+	-Đăng nhập đăng kí : 
+		+ Được hiển thị và sử dụng khi bắt đầu vào web mạng xã hội 
+		+ Có 2 textbox để nhập thông tin user name và password cùng 1 button để đăng nhập
+		+ Có 1 dòng chữ ở dưới để có thể tạo tài khoản, bấm vào sẽ điều hướng đến web đăng kí tài khoàn
+		+ Web đăng kí tài khoản sẽ bao gồm tên người dùng, mật khẩu, gmail, các thông tin cơ bản khác	
+	- Cập nhật thông tin cá nhân : 
+		+ Có thể cập nhật lần đầu lúc tạo tài khoản 
+		+ Có thể cập nhật trong profile cá nhân 
+	- Cập nhật ảnh đại diện, ảnh bìa, xóa ảnh
+		+ Thao tác thông qua profile cá nhân sau khi tạo tài khoản và đăng nhập 
+		+ Chọn ảnh trên máy tính cá nhân và hiển thị trên trang cá nhân 
+	- Đăng bài,cập nhật,xóa : 
+		+ Thao tác trên bảng feed hoặc trên profile cá nhân 
+		+ Cho phép người dùng like, bình luận và chia sẻ trên trang cá nhân 
+		+ Có hiển thị ảnh đính kèm, thời gian đăng, lượt like, lượt bình luận
+	- Xem thông tin cá nhân của người khác
+		+ Cho phép người dùng khác có thể xem thông tin của bạn nếu trạng thái là public 
+	- Xem ảnh đại diện, ảnh bìa 
+		+ Người dùng khác nếu vào trang cá nhân của bạn có thể click vào avatar hoặc phần ảnh bìa thể có thể xem rõ hơn 
+	-Bảng tin chung : 
+		+ Hiển thị các bài viết của mọi người có trong list bạn bè, trình tự hiển thị sẽ ưu tiên những bài viết đăng gần đây và được sắp xếp theo thời gian
+*Backlog 
+	-Người dùng	
+		-Là người dùng tôi muốn đăng kí tài khoản của bản thân
+		-Là một người dùng tôi muốn đăng nhập tài khoản của tôi
+		-Là một người dùng tôi muốn tìm lại mật khẩu thông qua gmail nếu quên 
+		-Là một người dùng tôi muốn thêm, sửa,xóa ảnh đại diện và ảnh bìa của mình
+		-Là một người dùng tôi muốn đăng,sửa,xóa bài viết
+		-Là một người dùng tôi muốn thêm hoặc cập nhật thông tin cá nhân của mình
+		-Là một người dùng tôi muốn xem thông tin cá nhân của bạn bè
+		-Là một người dùng tôi muốn like,chia sẻ,bình luận bài viết của bạn bè 
+		-Là một người dùng tôi muốn tìm kiếm người cũng sử dụng mạng xã hội theo tên
+		-Là một người dùng tôi muốn kết bạn, hủy kết bạn 
+		-Là một người dùng tôi muốn xem các bài viết của bạn mình trên trang bảng tin
+	-Admin
+		-Là một admin tôi muốn thống kê lượng tài khoản được tạo trong 1 khoảng thời gian nào đó
+		-Là một admin tôi muốn thống kê lượng người đăng bài trên mạng xã hội 
+		-Là một admin tôi muốn khóa 1 tài khoản nếu nó vi phạm chính sách, điều khoản sử dụng 
+-Câu hỏi khảo sát : 
+	1: Bạn đang sử dụng mạng xã hội trên nền tảng thiết bị nào ? 
+		+Điện thoại 
+		+Máy tính 
+		+Khác ... 
+	2: Theo bạn đâu là chức năng quan trọng nhất của 1 mạng xã hội : 
+		+Đăng bài 
+		+Nhắn tin 
+		+Khác ...
+	3 : Mạng xã hội bạn đang dùng có đang không đáp ứng được yêu cầu nào của bạn hay không ? 
+	4 : Bạn có muốn mạng xã hội bạn đang dùng có thêm chức năng nào hay không ? 
+	5 : Trong các lựa chọn dưới đây bạn có thấy đâu là một nhược điểm của công cụ tìm kiếm trên mạng xã hội ? 
+		+Khi tìm kiếm có quá nhiều người cùng tên
+		+Không thể tìm kiếm theo mail đăng kí hay số điện thoại 
+		+Công cụ tìm kiếm đã đáp ứng đủ nhu cầu của bạn
+		+Khác ... 
+
+	6 : Bạn có thấy tính bảo mật của mạng xã hội bạn đang sử dụng đã ổn hay chưa ? 
+		+Rồi
+		+Chưa
+		+Khác ... 

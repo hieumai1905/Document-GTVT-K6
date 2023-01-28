@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LVIHKUjob4wjRzbny6pm30szMQJh1GWfgWA2cD4fAvOygxzTquUNCsesaoD0GAQCCpUa/tlbUUpyAOEoz7aubA==",
+  "success": true,
+  "projectFilePath": "E:\\Study-Lesson-6\\LapTrinhWeb\\code\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maiva\\.nuget\\packages\\cake.libman\\1.0.1\\cake.libman.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city">
+        <item>Quê quán </item>
+        <item>Thanh Hoa</item>
+        <item>Ha Noi</item>
+        <item>Ho Chi Minh</item>
+        <item>Da Nang</item>
+        <item>Can Tho</item>
+    </string-array>
+    <string-array name="record">
+        <item>Mai Văn Hiếu - Nam - 0705973066 - Thanh Hoa</item>
+        <item>Mai Văn Hiếu - Nam - 0705973066 - Thanh Hoa</item>
+    </string-array>
+</resources>

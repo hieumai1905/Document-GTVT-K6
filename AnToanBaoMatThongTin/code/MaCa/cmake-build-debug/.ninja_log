@@ -1,0 +1,5 @@
+# ninja log v5
+0	883	6952864831210751	CMakeFiles/code.dir/main.cpp.obj	d824b2a345b79c33
+379	472	6952870553693978	code.exe	fc5f0124e5277c90
+3	196	6963350391220317	build.ninja	d585f14a90c6a38b
+4	379	6952870552794371	CMakeFiles/code.dir/Ceasar.cpp.obj	e1e5ea1a085a5289
