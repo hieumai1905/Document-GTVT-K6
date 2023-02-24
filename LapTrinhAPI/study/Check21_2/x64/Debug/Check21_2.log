@@ -1,0 +1,7 @@
+﻿  Check21_2.cpp
+E:\Study-Lesson-6\LapTrinhAPI\study\Check21_2\Check21_2.cpp(234,30): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+E:\Study-Lesson-6\LapTrinhAPI\study\Check21_2\Check21_2.cpp(242,29): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+E:\Study-Lesson-6\LapTrinhAPI\study\Check21_2\Check21_2.cpp(248,29): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+E:\Study-Lesson-6\LapTrinhAPI\study\Check21_2\Check21_2.cpp(262,25): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+E:\Study-Lesson-6\LapTrinhAPI\study\Check21_2\Check21_2.cpp(270,29): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+  Check21_2.vcxproj -> E:\Study-Lesson-6\LapTrinhAPI\study\Check21_2\x64\Debug\Check21_2.exe

@@ -8,8 +8,12 @@
         <item>Da Nang</item>
         <item>Can Tho</item>
     </string-array>
+
+
+
     <string-array name="record">
-        <item>Mai Văn Hiếu - Nam - 0705973066 - Thanh Hoa</item>
-        <item>Mai Văn Hiếu - Nam - 0705973066 - Thanh Hoa</item>
+        <item>name 1 - Nam - 0709730 - Thanh Hoa</item>
+        <item>name 2 - Nam - 0605373 - Thanh Hoa</item>
+        <item>name 3 - Nữ - 0605373 - Thanh Hoa</item>
     </string-array>
 </resources>

@@ -1,0 +1,3 @@
+﻿  DialogExemple.cpp
+E:\Study-Lesson-6\LapTrinhAPI\Code\DialogExemple\DialogExemple.cpp(211,3): warning C4065: switch statement contains 'default' but no 'case' labels
+  DialogExemple.vcxproj -> E:\Study-Lesson-6\LapTrinhAPI\Code\DialogExemple\x64\Debug\DialogExemple.exe

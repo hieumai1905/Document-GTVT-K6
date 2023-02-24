@@ -7,7 +7,6 @@ if __name__ == "__main__":
     port = 5050
     sk.bind((host, port))
     sk.listen(5)
-    sk.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
     while (True):
         print("waiting for client")

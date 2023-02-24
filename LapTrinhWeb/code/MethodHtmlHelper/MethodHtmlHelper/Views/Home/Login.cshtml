@@ -1,0 +1,18 @@
+﻿@model Login
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>User Details</h2>
+@using (Html.BeginForm("HandleLogin", "Home"))
+{
+    @Html.ValidationSummary(true)
+    <div>@Html.LabelFor(model => model.Username)</div>
+    <div>@Html.EditorFor(model => model.Username)</div>
+    <div>@Html.LabelFor(model => model.Password)</div>
+    <div>@Html.EditorFor(model => model.Password)</div>
+    <div>
+        <input type="submit" value="Submit"/>
+    </div>
+}

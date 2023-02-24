@@ -1,7 +1,8 @@
 import socket
 import Buoi11_BaseModule
-host = Buoi11_BaseModule.host
-port = Buoi11_BaseModule.port
+
+host = BaseModule.host
+port = BaseModule.port
 if __name__ == '__main__':
     while True:
         try:
@@ -9,12 +10,12 @@ if __name__ == '__main__':
             sk.connect((host, port))
             print("Enter message (q to exit:) ")
             msg = input()
-            Buoi11_BaseModule.send_msg(sk,msg)
+            BaseModule.send_msg(sk, msg)
             if msg == 'q':
                 break
             print("Send: {}".format(msg))
-            #Nhận về
-            msg = Buoi11_BaseModule.recv_msg(sk)
+            # Nhận về
+            msg = BaseModule.recv_msg(sk)
             print("Receive: " + msg)
         except ConnectionError:
             print("Socket error")

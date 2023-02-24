@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "Ogani": {
+      "commandName": "Project",
+      "workingDirectory": "E:\\Study-Lesson-6\\LapTrinhWeb\\pratice\\Ogani\\Ogani\\bin\\Debug",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7142;http://localhost:5127"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Profile 1": {
+      "commandName": "Executable"
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:25079",
+      "sslPort": 44328
+    }
+  }
+}

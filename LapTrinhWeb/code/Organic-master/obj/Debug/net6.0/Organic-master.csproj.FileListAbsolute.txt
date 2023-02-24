@@ -24,3 +24,8 @@ E:\Study-Lesson-6\LapTrinhWeb\code\Organic-master\obj\Debug\net6.0\refint\Organi
 E:\Study-Lesson-6\LapTrinhWeb\code\Organic-master\obj\Debug\net6.0\Organic-master.pdb
 E:\Study-Lesson-6\LapTrinhWeb\code\Organic-master\obj\Debug\net6.0\Organic-master.genruntimeconfig.cache
 E:\Study-Lesson-6\LapTrinhWeb\code\Organic-master\obj\Debug\net6.0\ref\Organic-master.dll
+E:\Study-Lesson-6\LapTrinhWeb\code\Organic-master\obj\Debug\net6.0\staticwebassets\msbuild.Organic-master.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Study-Lesson-6\LapTrinhWeb\code\Organic-master\obj\Debug\net6.0\staticwebassets\msbuild.build.Organic-master.props
+E:\Study-Lesson-6\LapTrinhWeb\code\Organic-master\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Organic-master.props
+E:\Study-Lesson-6\LapTrinhWeb\code\Organic-master\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Organic-master.props
+E:\Study-Lesson-6\LapTrinhWeb\code\Organic-master\obj\Debug\net6.0\staticwebassets.pack.json

@@ -28,6 +28,26 @@ public class HomeController : Controller
         return View("sample-inner-page");
     }
 
+    public IActionResult TestModel()
+    {
+        var user = new User();
+        user.id = 1;
+        user.name = "John";
+        user.email = "maivan@gmail.com";
+        var account = new Account("username", "password");
+        
+        // Chuyển đổi model sang object
+        object oUser = user;
+        object oAccount = account;
+        
+        // Tạo list Object
+        List<object> list = new List<object>();
+        list.Add(user);
+        list.Add(account);
+        
+        return View(list);
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

@@ -1,0 +1,44 @@
+﻿@model List<object>;
+<div>
+
+    @* <p>Id: @ViewBag.User.id</p> *@
+    @* <p>Name: @ViewBag.User.name</p> *@
+    @* <p>Email: @ViewBag.User.email</p> *@
+
+    
+    @* <p>Id: @Model.id</p> *@
+    @* <p>Id: @Model.name</p> *@
+    @* <p>Id: @Model.email</p> *@
+
+    @* Hiển thị thông tin danh sách đối tượng User *@
+    @* @foreach (var user in Model) *@
+    @* { *@
+    @*     <p>id: @user.id</p> *@
+    @*     <p>name: @user.name</p> *@
+    @*     <p>email: @user.email</p> *@
+    @* } *@
+
+    @* Hiển thị thông tin danh sách các đối tượng khách nhau *@
+    
+    @foreach (var item in Model)
+    {
+        // Kiểm tra thể hiện của đối tượng hiện tại
+        if (item is User)
+        {
+            <h1>User</h1>
+            // Ép kiểu 
+            var user = (User)item;
+            <p>id: @user.id</p>
+            <p>name: @user.name</p>
+            <p>email: @user.email</p>
+        }
+        else
+        {
+            <h1>Account</h1>
+            // Ép kiểu
+            var account = (Account)item;
+            <p>id: @account.Username</p>
+            <p>id: @account.Password</p>
+        }
+    }
+</div>

@@ -1,0 +1,12 @@
+﻿@model Login
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>title</h2>
+@{ var login = Model as Login; }
+<h1>@login.Username</h1>
+<h1>@login.Password</h1>
+
+@* khi @model Login this chương trình sẽ hiểu rằng model này là Login và ta có thể thao tác thông qua đối tượng Model *@

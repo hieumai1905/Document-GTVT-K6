@@ -1,0 +1,5 @@
+﻿  ThucHanh_buoi2_ngay13_2.cpp
+E:\Study-Lesson-6\LapTrinhAPI\Thực hành\ThucHanh_buoi2_ngay13_2\ThucHanh_buoi2_ngay13_2\ThucHanh_buoi2_ngay13_2.cpp(141,17): warning C4312: 'type cast': conversion from 'int' to 'HMENU' of greater size
+E:\Study-Lesson-6\LapTrinhAPI\Thực hành\ThucHanh_buoi2_ngay13_2\ThucHanh_buoi2_ngay13_2\ThucHanh_buoi2_ngay13_2.cpp(145,20): warning C4312: 'type cast': conversion from 'int' to 'HMENU' of greater size
+E:\Study-Lesson-6\LapTrinhAPI\Thực hành\ThucHanh_buoi2_ngay13_2\ThucHanh_buoi2_ngay13_2\ThucHanh_buoi2_ngay13_2.cpp(147,20): warning C4312: 'type cast': conversion from 'int' to 'HMENU' of greater size
+  ThucHanh_buoi2_ngay13_2.vcxproj -> E:\Study-Lesson-6\LapTrinhAPI\Thực hành\ThucHanh_buoi2_ngay13_2\x64\Debug\ThucHanh_buoi2_ngay13_2.exe

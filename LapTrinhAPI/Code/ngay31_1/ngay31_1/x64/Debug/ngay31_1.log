@@ -1,0 +1,9 @@
+﻿  ngay31_1.cpp
+E:\Study-Lesson-6\LapTrinhAPI\Code\ngay31_1\ngay31_1\ngay31_1.cpp(177,56): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+E:\Study-Lesson-6\LapTrinhAPI\Code\ngay31_1\ngay31_1\ngay31_1.cpp(181,56): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+E:\Study-Lesson-6\LapTrinhAPI\Code\ngay31_1\ngay31_1\ngay31_1.cpp(182,56): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+E:\Study-Lesson-6\LapTrinhAPI\Code\ngay31_1\ngay31_1\ngay31_1.cpp(185,56): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+E:\Study-Lesson-6\LapTrinhAPI\Code\ngay31_1\ngay31_1\ngay31_1.cpp(186,56): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+E:\Study-Lesson-6\LapTrinhAPI\Code\ngay31_1\ngay31_1\ngay31_1.cpp(189,56): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+E:\Study-Lesson-6\LapTrinhAPI\Code\ngay31_1\ngay31_1\ngay31_1.cpp(190,56): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+  ngay31_1.vcxproj -> E:\Study-Lesson-6\LapTrinhAPI\Code\ngay31_1\x64\Debug\ngay31_1.exe

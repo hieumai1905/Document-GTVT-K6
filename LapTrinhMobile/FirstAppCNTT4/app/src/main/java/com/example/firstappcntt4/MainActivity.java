@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.RadioButton;
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     Spinner spnCity;
     Button addRecord;
     ListView listRecord;
+    List<CheckBox> sothich = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +40,11 @@ public class MainActivity extends AppCompatActivity {
         addRecord = findViewById(R.id.addRecord);
         listRecord = findViewById(R.id.listRecord);
         addRecord.setOnClickListener(addRecordListener);
+        sothich.add(findViewById(R.id.ckbDaBong));
+        sothich.add(findViewById(R.id.ckbHat));
+        sothich.add(findViewById(R.id.ckbChayBo));
     }
+
 
     private View.OnClickListener addRecordListener = new View.OnClickListener() {
         @Override
@@ -48,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
             String male = rdoMale.isChecked() ? "Nam" : "Nữ";
             String city = spnCity.getSelectedItem().toString();
             String result = name + " - " + male + " - " + phone + " - " + city;
+            for (CheckBox ckb : sothich) {
+                if (ckb.isChecked()) {
+                    result += " - " + ckb.getText().toString();
+                }
+            }
             List<String> list = new ArrayList<>();
             for (int i = 0; i < listRecord.getCount(); i++) {
                 list.add(listRecord.getItemAtPosition(i).toString());
@@ -65,6 +76,9 @@ public class MainActivity extends AppCompatActivity {
         rdoMale.setChecked(false);
         rdoFemale.setChecked(false);
         spnCity.setSelection(0);
+        for (CheckBox ckb : sothich) {
+            ckb.setChecked(false);
+        }
     }
 
 }

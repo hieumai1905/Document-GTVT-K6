@@ -9,6 +9,17 @@
     tools:layout_editor_absoluteX="-16dp"
     tools:layout_editor_absoluteY="45dp">
 
+    <CheckBox
+        android:id="@+id/ckbHat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="60dp"
+        android:text="Hát"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ckbChayBo"
+        app:layout_constraintTop_toTopOf="@+id/txtName" />
+
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/txtName"
         android:layout_width="match_parent"
@@ -23,36 +34,30 @@
         android:layout_width="400dp"
         android:layout_height="33dp"
         android:layout_marginStart="7dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="544dp"
+        android:layout_marginTop="7dp"
         android:entries="@array/city"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/radioGroup2"
         android:layout_width="335dp"
         android:layout_height="43dp"
-        android:layout_marginStart="2dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.01"
+        android:layout_marginStart="7dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/txtName"
-        app:layout_constraintVertical_bias="0.124">
+        app:layout_constraintTop_toBottomOf="@+id/txtPhone">
 
         <RadioButton
             android:id="@+id/rdoMale"
             android:layout_width="87dp"
             android:layout_height="35dp"
             android:layout_marginStart="4dp"
-            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
             android:text="Nam"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:ignore="TouchTargetSizeCheck" />
 
         <RadioButton
@@ -78,40 +83,70 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="149dp"
+        android:layout_marginTop="302dp"
         android:layout_marginEnd="168dp"
         android:background="#A89999"
         android:text="Add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265"
+        app:layout_constraintVertical_bias="0.013"
         tools:ignore="TextContrastCheck" />
 
     <ListView
         android:id="@+id/listRecord"
-        android:layout_width="439dp"
-        android:layout_height="488dp"
+        android:layout_width="410dp"
+        android:layout_height="347dp"
         android:layout_marginStart="3dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginTop="77dp"
         android:entries="@array/record"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/txtName"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="@+id/addRecord" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/txtPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="45dp"
         android:hint="Số điện thoại"
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/ckbDaBong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="176dp"
+        android:text="Đá bóng"
+        app:layout_constraintEnd_toStartOf="@+id/ckbChayBo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtPhone" />
+
+    <CheckBox
+        android:id="@+id/ckbChayBo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="30dp"
+        android:text="Chạy bộ"
+        app:layout_constraintEnd_toStartOf="@+id/ckbHat"
+        app:layout_constraintStart_toEndOf="@+id/ckbDaBong"
         app:layout_constraintTop_toTopOf="@+id/txtName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Sở thích"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnCity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
